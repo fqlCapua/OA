@@ -1,0 +1,161 @@
+/**
+ * 请假
+ * vacate.css
+ * 
+ * 
+ * ***/
+
+html{
+	overflow: hidden;
+}
+
+body{
+	padding-bottom: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.vacate_box .mui-bar{
+	position: relative;
+	background: rgba(0,0,0,0);
+}
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+
+.vacate_box{
+	width: 100%;
+	height: auto;
+}
+/*半圆背景*/
+.vacate_box .radius_bg{
+	position: relative;
+    left: 50%;
+	width: 140%;
+    height: 30rem;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%); 	/* IE 9 */
+	-moz-transform: translate(-50%,-50%); 	/* Firefox */
+	-webkit-transform: translate(-50%,-50%); /* Safari 和 Chrome */
+	-o-transform: translate(-50%,-50%);
+}
+
+/*input_box*/
+.vacate_box .input_box{
+	position: absolute;
+	top:7.5rem;
+	left:50%;
+	width:90%;
+	padding: 2.5rem 1rem;
+	padding-bottom: 5rem;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background: #fff;
+	 transform: translateX(-50%);
+	-ms-transform: translateX(-50%); 	/* IE 9 */
+	-moz-transform: translateX(-50%); 	/* Firefox */
+	-webkit-transform: translateX(-50%); /* Safari 和 Chrome */
+	-o-transform:translateX(-50%);
+}
+
+/*请认真填写*/
+.vacate_box .input_box .input_title{
+	width: 100%;
+	font-size:1.2rem;
+	color:#bbbbbb;
+}
+/*inp_list*/
+.vacate_box .input_box .inp_list{
+	width: 100%;
+	border-bottom: 1px solid #bbb;
+	padding-bottom: .5rem;
+	padding-left:.7rem;
+	padding-right:.7rem;
+	box-sizing: border-box;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top:2rem;
+}
+.vacate_box .input_box .inp_list input{
+	width:70%;
+	border:0;
+	line-height: 2rem;
+	outline: none;
+	font-size:1.4rem;
+}
+.vacate_box .input_box .inp_list select{
+	width:70%;
+	border:0;
+	line-height: 1.8rem;
+	outline: none;
+	font-size:1.4rem;
+	background: none;
+	-webkit-appearance:none;
+}
+
+.vacate_box .input_box .inp_list .left_title{
+	width:20%;
+	line-height: 2rem;
+	font-size: 1.4rem;
+	color: #444;
+	text-align: left;
+}
+.vacate_box .input_box .inp_list .iconfont{
+	width:1.3rem;
+	height: 1.3rem;
+	line-height: 2rem;
+	font-size: 1.4rem;
+	color: #7d7c7c;
+}
+
+.vacate_box .submit_btn{
+	width: 90%;
+	height:4rem;
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 4rem;
+	color: #fff;
+	border-radius: 2rem;
+	background-color: #fd575e;
+	margin: 0 auto;
+	margin-top: 15rem;
+	position: relative;
+	overflow: hidden;
+}
+
+
+.vacate_box .material-design canvas {
+    opacity: 0.25;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius:2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

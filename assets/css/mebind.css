@@ -1,0 +1,68 @@
+/**
+ * 绑定
+ * mebind.css
+ * 
+ * **/
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+body{
+	background: #fff;
+	height: 100%;
+	padding-bottom: 0;
+}
+
+
+.mebind_box{
+	width: 100%;
+	height: auto;
+}
+
+.mebind_box .mebind_img{
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 2rem;
+	box-sizing: border-box;
+}
+.mebind_box .mebind_img img{
+	width: 100%;
+	display: block;
+	display: none;
+}
+
+.mebind_box .mebind_num{
+	width: 100%;
+	text-align: center;
+	font-size: 1.3rem;
+	font-weight: 600;
+	margin-bottom: 3rem;
+	display: none;
+}
+
+.mebind_box .mebind_change_btn,
+.mebind_box .mebind_relieve_btn{
+	width: 92%;
+	height: 3.5rem;
+	border-radius:1.75rem;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	text-align: center;
+	line-height: 3.5rem;
+	
+}
+.mebind_box .mebind_change_btn{
+	background-color:#fd575e;
+	color: #fff;
+	display: none;
+}
+.mebind_box .mebind_relieve_btn{
+	border:1px solid #fd575e;
+	color: #fd575e;
+	margin-top: 2rem;
+}

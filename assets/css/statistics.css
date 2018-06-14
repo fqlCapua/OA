@@ -1,0 +1,108 @@
+/***
+ * 工作统计
+ * statistics.css
+ * 
+ * **/
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+
+
+
+
+.list-box>li>a>.floatLeft {
+	width:58%;
+	padding-left: 2rem;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.list-box>li {
+	background: #fff;
+	width: 95%;
+	margin: 0 auto;
+	border-radius: 5px 5px 5px 5px;
+	height: 9.5rem;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+
+.list-box>li>a {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+.list-box>li>a>.floatLeft>.service {
+	font-size: 1rem;
+	color: #2755e1;
+	text-align: right;
+	margin-top: 1.3rem;
+	margin-bottom: 0.7rem;
+}
+
+.reception-box {
+	width: 11.55rem;
+	height: 1.75rem;
+}
+
+.reception-box>span:nth-child(1) {
+	color: #fd575e;
+	font-size: 2.2rem;
+	display: inline-block;
+	line-height: 1.7rem;
+}
+
+.reception-box>span:nth-child(2) {
+	font-size: 1.1rem;
+	color: #999999;
+	display: inline-block;
+	line-height: 1.5rem;
+}
+
+.aggregate {
+	width: 11.55rem;
+	height: 1.75rem;
+	margin-top: 0.85rem;
+}
+
+.aggregate>span:nth-child(1) {
+	font-size: 1.3rem;
+	line-height: 1.7rem;
+	color: #666666;
+}
+
+.aggregate>span:nth-child(2) {
+	font-size: 1.3rem;
+	line-height: 1.7rem;
+	color: #666666;
+}
+
+.aggregate>span:nth-child(3) {
+	font-size: 1.1rem;
+	color: #999999;
+	display: inline-block;
+	line-height: 1.5rem;
+}
+
+.aggre {
+	background: #fbffe9;
+	width:38%;
+	height: 100%
+}
+
+.aggre>img {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,59 @@
+/**
+ * 公告详情
+ * notice-particulars.css
+ * 
+ * **/
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+
+.person_box{
+width: 90%;
+margin: 0 auto;
+margin-top:0.8rem;
+border-radius: 6px;
+background:#fff;
+padding-bottom:1rem;
+box-sizing: border-box;
+}
+.person_box>.cont_person{
+	width:93%;
+	margin: 0 auto;
+}
+.person_box>.cont_person>div.title{
+	font-size:1.4rem;
+	color: #000;
+	padding-top:1rem;
+	box-sizing: border-box;
+}
+.person_box>.cont_person>p {
+	font-size: 1rem;
+	color: #999999;
+}
+
+.list_cont>li {
+	color: #666666;
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+	line-height:2rem;
+}
+
+.list_cont>li:nth-child(3) {
+	padding-left: 3rem;
+	box-sizing: border-box;
+}
+
+.list_cont>li:nth-child(4)>p:nth-child(1) {
+	padding-left: 3rem;
+	box-sizing: border-box;
+}
+
+.list_cont>li:nth-child(4)>p:not(:first-child) {
+	text-indent: 3rem;
+}

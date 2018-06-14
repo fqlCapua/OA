@@ -1,0 +1,182 @@
+/**
+ * index.css
+ * 
+ * **/
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	height: auto;
+	padding-top: 4.9rem;
+	padding-bottom:4.9rem;
+	box-sizing: border-box;
+	background: #ececec;
+}
+
+.mui-bar {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height: 4.9rem;
+    border-bottom: 0;
+    background-color: #fff;
+    /*-webkit-box-shadow: 0 0 1px rgba(0,0,0,.85);
+    box-shadow: 0 0 1px rgba(0,0,0,.85);*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.mui-bar-nav {
+    top: 0;
+    /*-webkit-box-shadow: 0 1px 6px #ccc;
+    box-shadow: 0 1px 6px #ccc;*/
+}
+.linear{
+   background: -webkit-linear-gradient(left, #5876cf , #662672); /* Safari 5.1 - 6.0 */
+   background: -o-linear-gradient(left, #5876cf , #662672); /* Opera 11.1 - 12.0 */
+   background: -moz-linear-gradient(left, #5876cf , #662672); /* Firefox 3.6 - 15 */
+   background: linear-gradient(left, #5876cf , #662672); /* 标准的语法 */  
+}
+
+
+
+.iconfont {
+    font-family: "微软雅黑";
+    font-size:2.4rem;
+    font-weight: 400;
+    font-style: normal;
+    /*line-height: 1;*/
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.mui-bar .iconfont {
+    font-size: 2.4rem;
+    position: relative;
+    z-index: 20;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 2.25rem;
+    padding-left: 1.25rem;
+    color:#fff;
+}
+
+.mui-pull-left {
+    float: left;
+}
+.mui-pull-right {
+    float: right;
+}
+
+.mui-title {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 4.9rem;
+    position: absolute;
+    display: block;
+    width: 100%;
+    margin: 0 -10px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+.mui-bar .mui-title {
+    right:4.9rem;
+    left: 4.9rem;
+    display: inline-block;
+    overflow: hidden;
+    width: auto;
+    margin: 0;
+    text-overflow: ellipsis;
+}
+
+.mui-bar-tab {
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height:4.9rem;
+    padding: 0;
+    table-layout: fixed;
+    border-top: 0;
+    border-bottom: 0;
+    -webkit-touch-callout: none;
+    overflow: hidden;
+    border-top:1px solid #e7e7e7;
+    box-sizing: border-box;
+}
+
+.mui-bar-tab .mui-tab-item {
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #cdcdcd;
+}
+
+.mui-bar-tab .mui-tab-item.mui-active {
+    color: #fb5d6a;
+}
+
+.mui-bar-tab .mui-tab-item .iconfont {
+    /*top: 3px;*/
+    width: 2.4rem;
+    height: 2.4rem;
+    padding-top: 0;
+    padding-bottom: 4px;
+}
+.mui-bar-tab .mui-tab-item .iconfont~.mui-tab-label {
+    font-size: 11px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mui-badge {
+    font-size: 12px;
+    line-height: 1;
+    display: inline-block;
+    padding: 3px 6px;
+    color: #333;
+    border-radius: 100px;
+    background-color: rgba(0,0,0,.15);
+}
+
+.iconfont .mui-badge {
+    font-size: 10px;
+    line-height: 1.4;
+    position: absolute;
+    top: -2px;
+    left: 100%;
+    margin-left: -10px;
+    padding: 1px 5px;
+    color: #fff;
+    background: red;
+}
+
+.mui-bar-nav .iconfont .mui-badge {
+    font-size: 10px;
+    line-height: 1.4;
+    position: absolute;
+    top:25%;
+    left:60%;
+    /*margin-left: -10px;*/
+    padding:3px;
+    color: #fff;
+    background: red;
+}
+
+

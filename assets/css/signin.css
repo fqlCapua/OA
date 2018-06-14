@@ -1,0 +1,264 @@
+/***
+ * singin.css
+ * 
+ * **/
+
+html{
+	overflow: hidden;
+}
+
+body{
+	padding-bottom: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+
+/*时间tab*/
+.signin_box .time_box{
+	width: 100%;
+	height: 9.4rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	box-sizing: border-box;
+}
+
+.signin_box .time_box .signin_date_title{
+	width: 100%;
+	/*height: 3rem;*/
+	/*line-height: 3rem;*/
+	text-align: center;
+	font-size:1.2rem;
+	color: #fff;
+	margin-bottom: 1.5rem;
+}
+
+.signin_box .time_box .signin_date_list{
+	width: 100%;
+	height: 6.4rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.signin_box .time_box ._date_list{
+	width: 14.28%;
+	height: 100%;
+}
+/*week*/
+.signin_box .time_box  ._week,
+.signin_box .time_box ._day{
+	width: 100%;
+	color: #fff;
+	font-size: 1.2rem;
+	text-align: center;
+}
+/*week*/
+.signin_box .time_box ._day{
+	width:100%;
+	font-size: 1.3rem;
+	margin-top: 1rem;
+	line-height: 2.2rem;
+}
+
+/*今天*/
+.signin_box .time_box ._day .native_today{
+	display: inline-block;
+	width:2rem;
+	height:2rem;
+	text-align: center;
+	line-height: 2rem;
+	vertical-align: middle;
+	color: #fff;
+	border-radius: 50%;
+	background-color: #fd575e;
+	overflow: hidden;
+}
+
+/*打卡模式*/
+.signin_box .punch_card_box{
+	width: 100%;
+	height: 23rem;
+	background-color:#fff;
+	padding-top: 2rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+/*上线/下线时间*/
+.signin_box .punch_card_box .card_state_box{
+	height: auto;
+	position: absolute;
+	left: 1rem;
+	top: 2rem;
+}
+/*上线*/
+.signin_box .card_state_box .Online_box{
+	display: block;
+}
+.signin_box .card_state_box .OffLine_box{
+	display: block;
+}
+
+.signin_box .card_state_box h3{
+	text-align: left;
+	font-size:1.3rem;
+	color:#5b66bc;
+	font-weight: 800;
+	margin-bottom: 3px;
+}
+
+.signin_box .card_state_box .Online_time,
+.signin_box .card_state_box .OffLine_box{
+	text-align: left;
+	font-size:1.3rem;
+	color:#333333;
+	font-weight: 800;
+}
+.signin_box .card_state_box .OffLine_box{
+	margin-top: 1rem;
+}
+
+/*打卡模式title*/
+.signin_box .punch_card_title{
+	width: 100%;
+    text-align: center;
+    font-size:1.4rem;
+    color: #666666;	
+    margin-bottom: 1.3rem;
+}
+/*打卡按钮*/
+.signin_box .punch_card_btn_border{
+	width:9.8rem;
+	height: 9.8rem;
+	border-radius: 50%;
+	margin: 0 auto;
+	border: 3px solid #f99296;
+	padding:2px;
+    text-align: center;
+    font-size:1.4rem;
+    color: #666;
+    box-sizing: border-box;	
+}
+
+/*打卡按钮*/
+.signin_box .punch_card_btn_content{
+	width:100%;
+	height:100%;
+	background-color: #fd575e;
+	border-radius: 50%;
+	padding-top: 2.7rem;
+	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
+}
+.signin_box .punch_card_btn_content:after {
+    content: ' ';
+    display: block;
+    background-image: linear-gradient(44deg, rgba(0, 255, 51,0) 50%, #ff989c  100%);
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation:radar-beam 5s infinite; /* Safari 和 Chrome */
+            animation: radar-beam 5s infinite;
+    -webkit-animation-timing-function:linear;
+            animation-timing-function:linear;
+    
+    -webkit-transform-origin: bottom right;
+       -moz-transform-origin: bottom right;
+        -ms-transform-origin: bottom right;
+         -o-transform-origin: bottom right;
+            transform-origin: bottom right;
+    border-radius: 100% 0 0 0;
+}
+
+.signin_box .punch_card_btn_content .punch_card{
+	width:100%;
+	text-align: center;
+	font-size:1.7rem;
+	color:#fff;
+}
+
+/*时间*/
+.signin_box .punch_card_btn_content .now_date{
+	width:63%;
+	text-align: center;
+	font-size:1.2rem;
+	color:#fff;
+	margin: 0 auto;
+	margin-top: 6px;
+}
+
+/*当前位置*/
+.signin_box .now_position{
+	/*width: 70%;*/
+	width: 100%;
+	/*text-align: left;*/
+	text-align: center;
+	font-size:1.4rem;
+	color: #333;
+	/*float: right;*/
+	margin-top: 1.5rem;
+	margin-bottom: 1.2rem;
+	
+}
+
+/*附近债行*/
+.signin_box .nearby{
+	/*width: 70%;*/
+	width: 100%;
+	/*text-align: left;*/
+	text-align: center;
+	font-size:1.3rem;
+	color: #999;
+	/*float: right;*/
+}
+
+
+
+
+/*地图*/
+.signin_box .map_box{
+	width: 100%;
+	height:29.4rem;
+	background-image:url(../images/signin/map.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+@keyframes radar-beam {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes radar-beam{
+0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

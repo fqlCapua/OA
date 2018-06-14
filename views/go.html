@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="msapplication-tap-highlight" content="no">	
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+    <title>外出</title>
+    <script src="../lib/rem.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../lib/calendar/css/calendar.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/go.css"/>
+</head>
+<body>
+	
+    <div class="Go_box">
+    	<!--头部-->
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-pull-left iconfont icon-fanhui"></a>
+			<h1 class="mui-title">外出</h1>
+		</header>
+    	<!--半圆背景-->
+    	<div class="radius_bg linear"></div>
+    	<!--input_box-->	
+    	<div class="input_box">
+    		<!--请认真填写-->
+    		<div class="input_title">请认真填写</div>
+    		<!--外出时间-->
+    		<div class="inp_list">
+    			<div class="left_title">外出时间</div>
+    			<input type="text" readonly="readonly"  value="" id="start_date" placeholder="请选择" />
+    			<div class="iconfont icon-arrow"></div>
+    		</div>
+    		<!--结束时间-->
+    		<div class="inp_list">
+    			<div class="left_title">结束时间</div>
+    			<input type="text" readonly="readonly"  value=""  id="end_date" placeholder="请选择" />
+    			<div class="iconfont icon-arrow"></div>
+    		</div>
+    		<!--外出事由-->
+    		<div class="inp_list">
+    			<div class="left_title">外出事由</div>
+    			<input type="text" value="" placeholder="请输入外出事由" />
+    			<div class="iconfont icon-arrow" style="color: #fff;"></div>
+    		</div>
+    		<!--审批人-->
+    		<div class="inp_list">
+    			<div class="left_title">审批人</div>
+    			<input type="text" readonly="readonly"  value="" placeholder="请选择" />
+    			<div class="iconfont icon-arrow"></div>
+    		</div>
+    	</div>
+    	<!--btn-->
+    	<div class="submit_btn material-design" data-color="#e94043">提交</div>
+    		
+    	
+    </div>
+</body>
+
+    <script type="text/javascript" src="../lib/zepto-1.1.4.min.js"></script>
+    <script type="text/javascript" src="../assets/js/public.js" ></script>
+    <script type="text/javascript" src="../lib/calendar/js/calendar.js" ></script>
+    <script type="text/javascript" src="../lib/prefixfree.min.js" ></script>
+    <script type="text/javascript" src="../lib/shuibo.js" ></script>
+	<script type="text/javascript" src="../assets/js/go.js"></script>
+</html>
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="msapplication-tap-highlight" content="no">	
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+    <title>签到</title>
+    <script src="../lib/rem.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/signin.css"/>
+</head>
+<body>
+	<!--头部-->
+	<header class="mui-bar mui-bar-nav linear">
+		<a class="mui-action-back mui-pull-left iconfont icon-fanhui"></a>
+		<h1 class="mui-title">签到</h1>
+	</header>
+	
+	<div class="signin_box">
+		<!--时间tab-->
+		<div class="time_box linear">
+			<!--日期-->
+			<div class="signin_date_title"></div>
+			<div class="signin_date_list"></div>
+		</div>
+		
+		<!--打卡模式-->
+		<div class="punch_card_box">
+			<!--打卡模式title-->
+			<div class="punch_card_title">当前为内勤打卡模式</div>
+			<!--打卡按钮-->
+			<div class="punch_card_btn_border">
+				<!---->
+				<div class="punch_card_btn_content">
+					<!--上线打卡-->
+					 <div class="punch_card">上线打卡</div>
+					 <!--时间-->
+					 <div class="now_date" id="clock"><span></span>:<span></span>:<span></span></div>
+				</div>
+			</div>
+			
+			<!--当前位置-->
+			<div class="now_position">
+				<span>当前位置:</span>
+				<span>绿地中心北塔</span>
+			</div>
+			<!--附近债行-->
+			<div class="nearby">
+				<span>附近债行:</span>
+				<span>河南众志债事服务商业有限公司</span>
+			</div>
+			
+			<!--上线/下线时间-->
+			<div class="card_state_box">
+				<!--上线-->
+				 <div class="Online_box">
+				 	<h3>上线</h3>
+			 		<div class="Online_time">
+			 			<span>打卡时间</span><span class="_Online">--:--</span>
+			 		</div>
+				 </div>
+				 <!--下线-->
+				 <div class=" OffLine_box">
+				 	<h3>下线</h3>
+			 		<div class="OffLine_time">
+			 			<span>打卡时间</span><span class="_OffLine">--:--</span>
+			 		</div>
+				 </div>
+			</div>
+			
+		</div>
+		
+		<!--地图-->
+		<div class="map_box">
+			
+		</div>
+	</div>
+	
+</body>
+
+    <script type="text/javascript" src="../lib/zepto-1.1.4.min.js"></script>
+	<script type="text/javascript" src="../assets/js/signin.js"></script>
+	<script type="text/javascript" src="../assets/js/public.js" ></script>
+</html>

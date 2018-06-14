@@ -1,0 +1,186 @@
+/***
+ * 债事资料
+ * information.css
+ * 
+ * **/
+
+body{
+	width: 100%;
+	height:auto;
+	padding-top:8.3rem;
+    padding-bottom:0;
+}
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+.information_header{
+	width: 100%;
+	height:4.9rem;
+	overflow: hidden;
+}
+.mui-bar {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height:auto;
+    border-bottom: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-shadow: 0px 10px 25px #7e74a9;
+}
+.information_bar_box{
+	width:100%;
+	height: 3.5rem;
+	
+}
+.information_bar_box .information_bar_list{
+	width:40%;
+	height:100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.information_bar_box .information_bar_list .information_bar_bottom{
+	position: absolute;
+	bottom: 0;
+	height: 4px;
+	background-color: #fff;
+}
+
+.information_bar_box .information_left_bar,
+.information_bar_box .information_right_bar{
+	height:100%;
+	color: #fff;
+	font-size:1.4rem;
+	line-height: 3.5rem;
+}
+
+.information_ul_box{
+	width: 100%;
+	height:auto;
+	padding: 1.6rem;
+	padding-top: 2rem;
+	box-sizing: border-box;
+}
+.share_information_box{
+	display: none;
+}
+.information_ul_box .information_li_box{
+	display: block;
+	width:100%;
+	height:12rem;
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 5px 5px 10px #a2a2a2;
+	margin-bottom: 1rem;
+	padding: 2rem .7rem 1rem 1.8rem;
+	box-sizing: border-box;
+}
+
+.information_ul_box .information_li_box .information_li_ren{
+	width:100%;
+}
+.information_ul_box .information_li_box .information_li_ren>div{
+	
+}
+
+.information_li_ren .information_li_ren_name{
+	text-align: left;
+	font-size:1.6rem;
+	color: #3e4bcb;
+}
+.information_li_ren .information_li_ren_sum{
+	text-align: center;
+	font-size:1.4rem;
+	color: #fd575e;
+	margin: 0 2.2rem;
+	position: relative;
+	padding-bottom: .4rem;
+	font-weight: 600;
+	box-sizing: border-box;
+}
+.information_li_ren .information_li_ren_sum .icon-zhixiang{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: -8px;
+    bottom: 0;
+    color: #000;
+    font-size:6.4rem;
+    font-weight: 500;
+    line-height: 3px;
+}
+.information_li_ren .information_li_server{
+	text-align: left;
+	font-size:1.6rem;
+}
+
+/*债事人*/
+.information_li_ren .information_li_server.matter{
+	color: #30c433;
+}
+
+/*债权人*/
+.information_li_ren .information_li_server.creditor{
+	color: #9b2fe0;
+}
+
+/*时间*/
+.information_li_box .information_time{
+	width: 100%;
+	font-size:1.4rem;
+	color:#666666;
+	margin-bottom:1rem;
+	margin-top: 1.5rem;
+}
+/*地址*/
+.information_li_box .information_address{
+	width: 100%;
+	font-size:1.4rem;
+	color:#666666;
+}
+
+.information_li_box .icon-dizhi:before {
+    font-size:1.8rem;
+    vertical-align: middle;
+    margin-left: -2px;
+}
+
+.information_li_box .information_address .information_address_content {
+    display: block;
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-size:1.4rem;
+	color:#666666;
+}
+
+.information_li_box .information_address .information_case{
+    float:right;
+    font-size:1.4rem;
+    color:#fd575e;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

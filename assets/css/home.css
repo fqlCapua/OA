@@ -1,0 +1,248 @@
+/**
+ * 
+ * home.css
+ * 
+ * 
+ * **/
+ /*main_body*/
+.home_body{
+	width: 100%;
+	height: auto;
+	padding: .5rem;
+	box-sizing: border-box;
+}
+.home_body .div_box{
+	width: 100%;
+	height: auto;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	background: #fff;
+	padding: 1rem .5rem;
+	box-sizing: border-box;
+}
+
+/*广告banner*/
+.home_body .banner_box{
+	/*height:12.2rem;*/
+	min-height: 10rem;
+	border-radius: 5px;
+	overflow: hidden;
+	padding: 0;
+}
+.home_body .banner_box img{
+	width: 100%;
+    display: block;
+}
+
+/*内外勤管理*/
+.home_body .title_box{
+	width: 100%;
+	height:3rem;
+	line-height:3rem;
+	font-size: 1.4rem;
+	font-weight: 800;
+	text-align: left;
+}
+/*业务汇报*/
+.home_body .manage_box,
+.home_body .business_box{
+	width: 100%;
+	height: auto;
+	padding: 0 1rem;
+	box-sizing: border-box;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+.home_body .flex_list{
+	width: 5.5rem;
+	height:auto;	
+}
+
+.home_body .flex_list ._content{
+	width:100%;
+	height:5.5rem;
+	border-radius:1rem;
+	/*background: #666666;*/
+	text-align: center;
+}
+
+.home_body .flex_list .sub{
+	text-align: center;
+	color: #333;
+	font-size: 1.3rem;
+	margin-top: .7rem;
+}
+
+
+
+/*业务汇报*/
+.home_body .business_box{
+	margin-bottom:1.7rem;
+}
+.home_body .business_box:nth-of-type(2){
+	margin-bottom:1.7rem;
+}
+.home_body .opacity{
+	background:rgba(0,0,0,0) !important;
+	color:rgba(0,0,0,0) !important ;
+}
+.home_body ._content .iconfont{
+	width: 100%;
+	height: 100%;
+	background-size:80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	font-size: 3rem;
+	line-height: 5.5rem;
+	position: relative;
+}
+
+/*提示*/
+.home_body .flex_list  .iconfont .hint{
+	padding: 6px;
+	border-radius: 50%;
+	background: #ff0000;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 99;
+	margin-right: -4px;
+	margin-top: -4px;
+	display: none;
+}
+.home_body .flex_list  .iconfont .hint.show{
+	display: block;
+}
+
+/*签到*/
+.home_body .qianD{
+	background: -webkit-linear-gradient(top, #5dd8b8 , #41c4a2); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #5dd8b8 , #41c4a2); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #5dd8b8 , #41c4a2); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #5dd8b8 , #41c4a2); /* 标准的语法 */
+}
+.home_body .qianD .iconfont{
+	background-image: url(../images/home/1.png);
+}
+
+/*外出*/
+.home_body .waiC{
+	background: -webkit-linear-gradient(top, #ff9333 , #ff8422); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #ff9333 , #ff8422); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #ff9333 , #ff8422); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #ff9333 , #ff8422); /* 标准的语法 */
+}
+.home_body .waiC .iconfont{
+	background-image: url(../images/home/2.png);
+	background-size:65%;
+}
+
+/*请假*/
+.home_body .QingJ{
+	background: -webkit-linear-gradient(top, #6ac4ff , #2aa9fb); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #6ac4ff , #2aa9fb); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #6ac4ff , #2aa9fb); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #6ac4ff , #2aa9fb); /* 标准的语法 */
+}
+.home_body .QingJ .iconfont{
+	background-image: url(../images/home/3.png);
+}
+
+/*离职*/
+.home_body .LiZ{
+	background: -webkit-linear-gradient(top, #ea92fc , #c254d7); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #ea92fc , #c254d7); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #ea92fc , #c254d7); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #ea92fc , #c254d7); /* 标准的语法 */
+}
+.home_body .LiZ .iconfont{
+	background-image: url(../images/home/4.png);
+}
+
+
+/*债事统计*/
+.home_body .TongJ{
+	background: -webkit-linear-gradient(top, #ff7676 , #fe5c5c); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #ff7676 , #fe5c5c); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #ff7676 , #fe5c5c); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #ff7676 , #fe5c5c); /* 标准的语法 */
+}
+.home_body .TongJ .iconfont{
+	background-image: url(../images/home/5.png);
+}
+
+/*客户反馈*/
+.home_body .FanK{
+	background: -webkit-linear-gradient(top, #f77982 , #ef689a); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #f77982 , #ef689a); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #f77982 , #ef689a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #f77982 , #ef689a); /* 标准的语法 */
+}
+.home_body .FanK .iconfont{
+	background-image: url(../images/home/6.png);
+	font-size: 3.2rem;
+}
+
+/*债事资料*/
+.home_body .ZiL{
+	background: -webkit-linear-gradient(top, #34f3bb , #24e4ca); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #34f3bb , #24e4ca); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #34f3bb , #24e4ca); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #34f3bb , #24e4ca); /* 标准的语法 */
+}
+.home_body .ZiL .iconfont{
+	background-image: url(../images/home/7.png);
+	font-size: 4rem;
+}
+
+/*客户管理*/
+.home_body .GuanL{
+	background: -webkit-linear-gradient(top, #ff9332 , #ff8423); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #ff9332 , #ff8423); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #ff9332 , #ff8423); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #ff9332 , #ff8423); /* 标准的语法 */
+}
+.home_body .GuanL .iconfont{
+	background-image: url(../images/home/8.png);
+}
+
+/*我的任务*/
+.home_body .RenW{
+	background: -webkit-linear-gradient(top, #69c3ff , #2babfb); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #69c3ff , #2babfb); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #69c3ff , #2babfb); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #69c3ff , #2babfb); /* 标准的语法 */
+}
+.home_body .RenW .iconfont{
+	background-image: url(../images/home/9.png);
+	background-size:65%;
+	font-size: 3.2rem;
+}
+
+/*工作日志*/
+.home_body .RiZhi{
+	background: -webkit-linear-gradient(top, #e78cf9 , #c95edd); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #e78cf9 , #c95edd); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #e78cf9 , #c95edd); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #e78cf9 , #c95edd); /* 标准的语法 */
+}
+.home_body .RiZhi .iconfont{
+	background-image: url(../images/home/10.png);
+	font-size: 4rem;
+}
+
+/*公告*/
+.home_body .GongGao{
+	background: -webkit-linear-gradient(top, #ed616c , #df444f); /* Safari 5.1 - 6.0 */
+    background-color: -o-linear-gradient(top, #ed616c , #df444f); /* Opera 11.1 - 12.0 */
+    background-color: -moz-linear-gradient(top, #ed616c , #df444f); /* Firefox 3.6 - 15 */
+    background: linear-gradient(top, #ed616c , #df444f); /* 标准的语法 */
+}
+.home_body .GongGao .iconfont{
+	background-image: url(../images/home/11.png);
+	font-size: 4rem;
+}

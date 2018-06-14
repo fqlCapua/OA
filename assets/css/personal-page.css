@@ -1,0 +1,214 @@
+/**
+ * personal-page.css
+ * 个人主页
+ * ***/
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+
+
+.personal_box{
+	background-color: #f2f2f2;
+}
+
+.personal_box .personal_head_box{
+	width: 100%;
+	height: 14.3rem;
+	padding: 2rem 0;
+	box-sizing: border-box;
+}
+
+.personal_box .personal_head_box .personal_portrait{
+	width:6.1rem;
+	height: 6.1rem;
+	margin: 0 auto;
+	border:2px solid #fff;
+	border-radius: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.personal_box .personal_head_box .personal_portrait img{
+	width: 100%;
+	height: 100%;
+}
+
+.personal_box .personal_head_box .personal_name{
+	width: 100%;
+	font-size:1.4rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .6rem;
+}
+
+.personal_box .personal_list_box{
+	width: 95%;
+	height:auto;
+	margin: 0 auto;
+}
+
+.personal_box .personal_li_box{
+	width: 100%;
+	height:4.5rem;
+	background-color: #fff;
+	padding-left:.6rem;
+	padding-right:.6rem;
+	border-radius: 3px;
+	margin-top: .7rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	box-sizing: border-box;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.personal_box .p_phone_title{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: -1.5rem;
+}
+
+.personal_box .personal_li_box .personal_li_icon{
+	width:2.5rem;
+	height:2.5rem;
+	border-radius: 50%;
+	background-color:#eae6ff;
+	overflow: hidden;
+}
+.personal_box .personal_li_box .personal_li_icon img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.personal_box .personal_li_box .icon-web-icon-{
+	color:#aa99ff;
+	background-color:#eae6ff;
+}
+.personal_box .personal_li_box .icon-wodezhanghu{
+	color:#ff6b6a;
+	background-color:#fee8eb;
+}
+
+.personal_box .personal_li_box .icon-anquan{
+	color:#41b6fb;
+	background-color: #e6f7ff;
+}
+
+/*箭头*/
+.personal_box .personal_li_box .icon-jiantou{
+	font-size:1.4rem;
+	color:#787777;
+	line-height: 2.5rem;
+	margin-left:1rem;
+}
+
+.personal_box .personal_li_box .personal_list_name{
+	font-size:1.5rem;
+	color:#5872cb;
+	line-height: 2.5rem;
+	margin-left:1rem;
+}
+
+.personal_phone,
+.handle_num{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	line-height: 2.5rem;
+}
+.personal_phone .iconfont,
+.handle_num .iconfont{
+	color: #fb5d6a;
+	vertical-align: middle;
+}
+.personal_phone .iconfont{
+    font-size: 2rem;
+}
+.handle_num .iconfont{
+	font-size: 2.5rem;
+}
+
+.personal_phone .P_content,
+.handle_num .H_content{
+	font-size: 1.4rem;
+	color: #5873cb;
+	vertical-align: middle;
+}
+
+.personal_box .personal_bei_An{
+	width: 95%;
+	height:auto;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-left:.6rem;
+	padding-right:.6rem;
+	border-radius: 3px;
+	margin-top: .7rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	box-sizing: border-box;
+}
+
+.personal_bei_An .bei_An_title{
+	text-align: left;
+	padding-left: 1rem;
+	font-size:1.3rem;
+	color: #333;
+	font-weight: 600;
+	margin-bottom: .7rem;
+	box-sizing: border-box;
+}
+.personal_box .personal_bei_An_list{
+	width: 100%;
+	height: 3.8rem;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    background-color:#e6f7ff;
+}
+.personal_box .personal_bei_An_list:nth-of-type(2n+1){
+	background-color:#eae6ff;
+}
+
+.personal_box .personal_bei_An_list_content{
+	width: 50%;
+	height:100%;
+	line-height: 3.8rem;
+	text-align: left;
+	padding-left:3.5rem;
+	box-sizing: border-box;
+}
+
+/*名字*/
+.personal_box .personal_bei_An_list_content ._name{
+	font-size:1.3rem;
+	color:#333;
+	margin-right:5px;
+}
+/*类型*/
+.personal_box .personal_bei_An_list_content ._genre{
+	font-size:1.2rem;
+	color:#4da7d4;
+}
+.personal_box .personal_bei_An_list:nth-of-type(2n+1) .personal_bei_An_list_content ._genre{
+	color:#aa99ff;
+}
+/*日期*/
+.personal_box .personal_bei_An_list_content ._time{
+	font-size:1.1rem;
+	color:#333;
+	margin-right:5px;
+}
+/*状态*/
+.personal_box .personal_bei_An_list_content ._state{
+	font-size:1.2rem;
+	color:#5875cd;
+}

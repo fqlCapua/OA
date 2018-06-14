@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="msapplication-tap-highlight" content="no">	
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+    <title>个人资料</title>
+    <script src="../lib/rem.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/fonts/iconfont.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="../assets/css/personal-data.css"/>
+</head>
+<body>
+	<!--头部-->
+	<header class="mui-bar mui-bar-nav linear ">
+		<div class="personal_header">
+			<a class="mui-action-back mui-pull-left iconfont icon-fanhui"></a>
+			<h1 class="mui-title">个人资料</h1>
+		</div>
+		<!---->
+		<div class="personal_bar_box ">
+			<!--头像-->
+			<div class="personal_bar_headerImg">
+				<img src="../assets/images/h6.png"/>
+			</div>
+			<!--名字-->
+			<div class="personal_name_box">
+				<div class="_name">
+					<span>赵先生 </span>
+				    <span class="personal_duty">债务人</span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!---->
+    <!--解债进度-->
+    <div class="personal_type_box">
+    	<!--解债进度-->
+    	<div class="personal_schedule">
+    		<!--title-->
+    		<div class="personal_type_title">
+    			<span>解债进度</span>
+    			<span class="personal_dot dot_bgColor1"></span>
+    		</div>
+    		<!--图表Echrat-->
+    		<div class="personal_echarts" id="Echarts"></div>
+    	</div>
+    	
+    	<!--备案情况-->
+    	<div class="personal_schedule" style="padding-bottom: 3.2rem;">
+    		<!--title-->
+    		<div class="personal_type_title">
+    			<span>备案情况</span>
+    			<span class="personal_dot dot_bgColor2"></span>
+    		</div>
+    		<!--备案进度-->
+    		<div class="personal_container">
+			    <i></i>  
+			    <ul class="time-vertical">
+			        <li>
+			        	<div class="personal_flow">备案</div>
+			        	<div class="personal_flow_time">2018-01-10</div>
+			        	<span class="personal_flow_dot flow_dot_1"></span>
+			        </li>
+			        <li>
+			        	<div class="personal_flow">70万解债</div>
+			        	<div class="personal_flow_time">2018-01-12</div>
+			        	<span class="personal_flow_dot flow_dot_2"></span>
+			        </li>
+			        <li>
+			        	<div class="personal_flow">30万解债</div>
+			        	<div class="personal_flow_time">2018-01-20</div>
+			        	<span class="personal_flow_dot flow_dot_3"></span>
+			        </li>
+			        <li>
+			        	<div class="personal_flow">负责人:李思 <span class="personal_phone_num">(13541268541)</span></div>
+			        	<span class="personal_flow_dot flow_dot_4"></span>
+			        </li>
+			    </ul>
+			</div>
+    	</div>
+    	<!--解债详情-->
+    	<div class="personal_schedule">
+    		<!--title-->
+    		<div class="personal_type_title">
+    			<span>解债详情</span>
+    			<span class="personal_dot dot_bgColor3"></span>
+    		</div>
+    		<ul class="personal_jiezhai_list_box">
+    			<li></li>
+    			<li></li>
+    			<li></li>
+    		</ul>
+    	</div>
+    </div>
+</body>
+
+    <!--<script type="text/javascript" src="../lib/zepto-1.1.4.min.js"></script>-->
+    <script type="text/javascript" src="../lib/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="../lib/echarts.min.js" ></script>
+	<script type="text/javascript" src="../assets/js/public.js" ></script>
+	<script type="text/javascript" src="../assets/js/personal-data.js"></script>
+	
+</html>

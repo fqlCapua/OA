@@ -1,0 +1,113 @@
+/**
+ * me.css
+ * ***/
+.me_box{
+	background-color: #f2f2f2;
+}
+
+.me_box .me_head_box{
+	width: 100%;
+	height: 14.3rem;
+	padding: 2rem 0;
+	box-sizing: border-box;
+}
+
+.me_box .me_head_box .me_portrait{
+	width:6.1rem;
+	height: 6.1rem;
+	margin: 0 auto;
+	border:2px solid #fff;
+	border-radius: 50%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.me_box .me_head_box .me_portrait img{
+	width: 100%;
+	height: 100%;
+}
+
+.me_box .me_head_box .me_name{
+	width: 100%;
+	font-size:1.4rem;
+	color: #fff;
+	text-align: center;
+	margin-top: .6rem;
+}
+
+.me_box .me_list_box{
+	width: 95%;
+	height:auto;
+	margin: 0 auto;
+	margin-top: -1.5rem;
+}
+
+.me_box .me_li_box{
+	display: block;
+	width: 100%;
+	height:4.5rem;
+	background-color: #fff;
+	padding-left:.6rem;
+	padding-right:.6rem;
+	border-radius: 3px;
+	margin-top: .7rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	box-sizing: border-box;
+}
+.me_box .me_li_box:nth-of-type(1){
+	margin-top: 0;
+}
+
+.me_box .me_li_box .me_li_icon{
+	width:2.5rem;
+	height:2.5rem;
+	border-radius: 50%;
+	background-color:#eae6ff;
+	overflow: hidden;
+}
+.me_box .me_li_box .me_li_icon img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	display: block;
+}
+.me_box .me_li_box .icon-web-icon-{
+	color:#aa99ff;
+	background-color:#eae6ff;
+}
+.me_box .me_li_box .icon-wodezhanghu{
+	color:#ff6b6a;
+	background-color:#fee8eb;
+}
+
+.me_box .me_li_box .icon-anquan{
+	color:#41b6fb;
+	background-color: #e6f7ff;
+}
+
+/*箭头*/
+.me_box .me_li_box .icon-jiantou{
+	font-size:1.4rem;
+	color:#787777;
+	line-height: 2.5rem;
+	margin-left:1rem;
+}
+
+.me_box .me_li_box .me_list_name{
+	font-size:1.5rem;
+	color:#5872cb;
+	line-height: 2.5rem;
+	margin-left:1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

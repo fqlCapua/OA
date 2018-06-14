@@ -1,0 +1,39 @@
+{
+  "views/book.html": {
+    "href": "views/book.html",
+    "priority": 0
+  },
+  "views/me.html": {
+    "href": "views/me.html",
+    "priority": 0
+  },
+  "views/home.html": {
+    "href": "views/home.html",
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "favicon.ico",
+      "lib/rem.js",
+      "assets/css/reset.css",
+      "assets/fonts/iconfont.css",
+      "assets/css/index.css",
+      "assets/css/home.css",
+      "assets/css/book.css",
+      "assets/css/me.css",
+      "lib/jquery-1.11.0.js",
+      "lib/vipspa.js",
+      "main.js",
+      "assets/js/book.js",
+      "assets/js/me.js",
+      "assets/js/home.js"
+    ],
+    "refer": [
+      "views/book.html",
+      "views/me.html",
+      "views/home.html"
+    ],
+    "priority": 0
+  }
+}

@@ -1,0 +1,266 @@
+/***
+ * 工作日志
+ * journal.css
+ * 
+ * **/
+
+html{
+	/*overflow: hidden;*/
+}
+
+body{
+	padding-bottom: 0;
+	padding-top: 16.2rem;
+	height: 100%;
+	/*overflow: hidden;*/
+}
+
+/*返回*/
+.mui-bar-nav.mui-bar .iconfont{
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1.25rem;
+    padding-left: 2.25rem;
+    color:#fff;
+}
+.mui-bar {
+	width: 100%;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+     height:auto; 
+    border-bottom: 0;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   }
+.mui-bar .header{
+   position: relative;
+   width: 100%;
+   height: 4.9rem;
+   }
+
+
+
+/*时间tab*/
+ .time_box{
+	width: 100%;
+	height: 7.8rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	box-sizing: border-box;
+}
+
+.time_box .journal_date_title{
+	width: 100%;
+	/*height: 3rem;*/
+	/*line-height: 3rem;*/
+	text-align: center;
+	font-size:1.2rem;
+	color: #fff;
+	margin-bottom: 1.5rem;
+}
+
+ .journal_date_list{
+	width: 100%;
+	height: 6.4rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+
+ .time_box ._date_list{
+	width: 14.28%;
+	height: 100%;
+}
+/*week*/
+.time_box  ._week,
+ .time_box ._day{
+	width: 100%;
+	color: #fff;
+	font-size: 1.2rem;
+	text-align: center;
+}
+/*week*/
+ .time_box ._day{
+	width:100%;
+	font-size: 1.3rem;
+	margin-top: 1rem;
+	line-height: 2.2rem;
+}
+
+/*今天*/
+ .time_box ._day .native_today{
+	display: inline-block;
+	width:2rem;
+	height:2rem;
+	text-align: center;
+	line-height: 2rem;
+	vertical-align: middle;
+	color: #fff;
+	border-radius: 50%;
+	background-color: #fd575e;
+	overflow: hidden;
+}
+
+
+.journal_bar_box {
+    width: 100%;
+    height: 3.5rem;
+}
+
+.journal_bar_box .journal_bar_list {
+    width: 45%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.journal_bar_box .journal_left_bar, 
+.journal_bar_box .journal_right_bar {
+    height: 100%;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+}
+
+.journal_bar_box .journal_bar_list .journal_bar_bottom {
+    position: absolute;
+    bottom: 0;
+    height: 4px;
+    background-color: #fff;
+}
+
+.journal_ul_box{
+	width: 100%;
+	height: auto;
+	padding: .5rem 1rem 2rem 1rem;
+	box-sizing: border-box;
+	display: none;
+}
+.journal_ul_box .journal_li_box{
+	width: 100%;
+	height: 10rem;
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom: .6rem;
+	padding: 1.2rem 0rem .6rem 1rem;
+	box-sizing: border-box;
+}
+
+.journal_ul_box .journal_li_title{
+	width: 100%;
+	padding-right: .4rem;
+	box-sizing: border-box;
+}
+
+.journal_ul_box .journal_li_type{
+	font-size: 1.4rem;
+	color: #5c64ba;
+	font-weight: 600;
+}
+.journal_ul_box .journal_li_time{
+	font-size: 1.1rem;
+	color: #c6c6c6;
+}
+
+.journal_ul_box .journal_li_content{
+	width: 80%;
+	font-size:1.4rem;
+	line-height:2rem;
+	color:#999;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: .7rem;
+}
+.journal_ul_box .journal_li_degree{
+	width: 100%;
+	
+}
+.journal_ul_box .journal_li_hint{
+	width: 4.3rem;
+	height: 2rem;
+	border-bottom-left-radius:1rem;
+	border-top-left-radius:1rem;
+	color: #fff;
+	line-height: 2rem;
+	text-align: center;
+}
+/*未完成*/
+.journal_ul_box .journal_li_hint.unfinished{
+	background-color:#ff7374;
+}
+/*完成*/
+.journal_ul_box .journal_li_hint.finish{
+	background-color:#32f1bc;
+}
+/*不紧要*/
+.journal_ul_box .journal_li_hint.not_matter{
+	background-color:#37affc;
+}
+
+.my_journal_box{
+	
+	width:95%;
+	margin: 0 auto;
+	margin-top:9px;
+	border-radius: 4px;
+	background: #fff;
+	padding-bottom: 3rem;
+	font-size:1.4rem;
+}
+.my_journal_box>ul>li {
+	border-bottom: 1px solid #ececec;
+	width: 95%;
+	margin: 0 auto;
+	height: 3rem;
+	margin-top: .5rem;
+	padding-bottom: 3px;
+}
+
+.my_journal_box>ul>li>div {
+	height: 100%;
+	line-height: 4.5rem;
+	font-size: 1.4rem;
+	color: #444444;
+}
+
+.remark_box {
+	height: auto!important;
+    border: none !important;
+    overflow: hidden;
+}
+
+.remark_box>div:nth-child(1) {
+	line-height: 4rem;
+}
+
+.remark_box>div:nth-child(2) {
+	height: 100%;
+	line-height: 1.5rem !important;
+	padding-top: 1rem;
+}
+
+.width_right {
+	width: 23rem;
+}
+
+.btn {
+	border: 1px solid;
+	height: 3.25rem;
+	width: 70%;
+	border-radius: 40px 40px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 3.25rem;
+	font-size: 1.4rem;
+	background: #fd575e;
+	color: #fff;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
